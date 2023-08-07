@@ -1,0 +1,41 @@
+@use './page.module' as colors;
+
+
+.btn{
+    width: 320px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    font-size:24px;
+    color: colors.$text-color;
+    
+}
+
+.addCartBtn{
+    background-color: colors.$btn-yellow;
+    cursor: pointer;
+}
+
+.buyBtn{
+    border: 1px solid colors.$border-blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.btnSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px; 
+}
+
+.addCartBtn:hover{
+    background-color: rgb(255, 204, 0);
+}
+
+.buyBtn:hover{
+    background-color: rgb(235, 240, 250);
+}

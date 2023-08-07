@@ -1,0 +1,55 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkSection {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.link {
+  color: #61A5FA;
+  font-size: 16px;
+}
+
+.btn {
+  width: 320px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-size: 24px;
+  color: #333333;
+}
+
+.addCartBtn {
+  background-color: #FBBF23;
+  cursor: pointer;
+}
+
+.buyBtn {
+  border: 1px solid #61A5FA;
+  background-color: white;
+  cursor: pointer;
+}
+
+.btnSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.addCartBtn:hover {
+  background-color: rgb(255, 204, 0);
+}
+
+.buyBtn:hover {
+  background-color: rgb(235, 240, 250);
+}/*# sourceMappingURL=buttons.module.css.map */

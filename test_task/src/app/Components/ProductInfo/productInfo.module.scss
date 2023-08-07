@@ -1,0 +1,20 @@
+@use '../../Styles/page.module' as colors;
+
+.productInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: colors.$text-color;
+    width: 100%;
+    .productName{
+        font-size: 24px;
+        font-weight: 500;  
+    }
+    .description{
+        font-size: 16px;
+    }
+    .price{
+        font-size: 32px;
+        font-weight: 700;
+    }
+}

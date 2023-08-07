@@ -1,0 +1,26 @@
+$ellipse-red: #EE4444;
+$ellipse-blue: #3C81F6;
+$ellipse-black: #000000;
+$btn-yellow: #FBBF23;
+$border-blue: #61A5FA;
+$text-color: #333333;
+$color-text-light: #666666;
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.linkSection{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+}
+.link{
+    color: $border-blue;
+    font-size: 16px;
+}
+

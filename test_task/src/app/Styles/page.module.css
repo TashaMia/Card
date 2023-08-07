@@ -1,0 +1,18 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.linkSection {
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+.link {
+  color: #61A5FA;
+  font-size: 16px;
+}/*# sourceMappingURL=page.module.css.map */
