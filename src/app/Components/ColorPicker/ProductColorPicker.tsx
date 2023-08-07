@@ -9,16 +9,15 @@ export default function ProductColorPicker() {
     <div className={styles.colorPicker}>
       <p className={styles.description}>Choose your colour</p>
       <div className={styles.ellipsSection}>
-        {colors.map((i) => {
-          return (
-            <button
-              className={`${styles.ellips} ${styles[i]} ${
-                selectedColor == i ? styles.selected : ""
-              }`}
-              onClick={() => setSelectedColor(i)}
-            ></button>
-          );
-        })}
+        {colors.map((color, i) => (
+          <button
+            key={`${color + i}`}
+            className={`${styles.ellips} ${styles[color]} ${
+              selectedColor == color ? styles.selected : ""
+            }`}
+            onClick={() => setSelectedColor(color)}
+          ></button>
+        ))}
       </div>
     </div>
   );
